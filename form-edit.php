@@ -28,13 +28,14 @@ if( mysqli_num_rows($query) < 1 ){
 <head>
 	<title>Formulir Edit Siswa | SMK Coding</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="./mystyle.css">
 </head>
 
 <body class="bg-dark mt-5">
 	<div class="container col-md-6 bg-light align-center p-4">
 		<div class="col align-center">
 			<header>
-				<h4 class="text-center">Formulir Edit Siswa</h4>
+				<h4 class="text-center gothBL mb-3">Formulir Edit Siswa</h4>
 			</header>
 			
 			<form action="proses-edit.php" method="POST">
