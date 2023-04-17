@@ -1,0 +1,8 @@
+@font-face {
+    font-family: GothBL;
+    src: url(./src/Gotham-Black.otf);
+}
+
+.gothBL{
+    font-family: GothBL;
+}
